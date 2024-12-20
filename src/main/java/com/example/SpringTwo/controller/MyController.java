@@ -15,7 +15,7 @@ public class MyController {
                 <head>
                     <style>
                         body {
-                            font-size: 24px;
+                            font-size: 38px;
                             color: #333;
                             font-family: Arial, sans-serif;
                             text-align: center;
@@ -24,7 +24,7 @@ public class MyController {
                     </style>
                 </head>
                 <body>
-                    Hello, World Rashmi is Coding Here!
+                    Hello World, Rashmi is Coding Here! 
                 </body>
                 </html>
                 """;
