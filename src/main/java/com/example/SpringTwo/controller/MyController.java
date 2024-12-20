@@ -5,12 +5,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")  // Optional: Use this to define a common prefix for your endpoints
+@RequestMapping("/api")
 public class MyController {
 
     @GetMapping("/hello")
     public String sayHello() {
-
-        return "Hello, World Rashmi is Coding Here!";
+        return """
+                <html>
+                <head>
+                    <style>
+                        body {
+                            font-size: 24px;
+                            color: #333;
+                            font-family: Arial, sans-serif;
+                            text-align: center;
+                            margin-top: 50px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    Hello, World Rashmi is Coding Here!
+                </body>
+                </html>
+                """;
     }
 }
